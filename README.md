@@ -1,12 +1,12 @@
-1. Установить зависимостей
+## Установка зависимостей
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
-2. Установить браузеры
+## Установка браузеров
 
-playwright install
+- playwright install
 
-3. Как запускать?
+## Как запускать?
 
 Запуск всех тестовых с подробным выводом и открытием браузера
 - pytest -v --headed 
@@ -14,7 +14,7 @@ playwright install
 Запуск по ключевому слову
 - pytest -k "ключевое слово"
 
-4. Как посмотреть результаты allure отчета?
+## Как посмотреть результаты allure отчета?
 
 В pytest.ini добавлен --alluredir=allure-results и после прогона будет создана папка allure-result
 
